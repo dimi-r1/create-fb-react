@@ -1,0 +1,49 @@
+{
+  "name": "create-fb-react",
+  "version": "1.0.0",
+  "description": "Create React Firebase applications with a modern boilerplate",
+  "main": "bin/create-fb-react.js",
+  "bin": {
+    "create-fb-react": "./bin/create-fb-react.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-cli": "node bin/create-fb-react.js test-project",
+    "clean-test": "rm -rf test-project"
+  },
+  "keywords": [
+    "react",
+    "firebase",
+    "boilerplate",
+    "cli",
+    "typescript",
+    "vite",
+    "tailwindcss",
+    "create-react-app",
+    "scaffolding",
+    "template",
+    "starter",
+    "authentication",
+    "shadcn",
+    "tanstack",
+    "query"
+  ],
+  "author": "Dimi R1",
+  "license": "MIT",
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dimi-r1/create-fb-react.git"
+  },
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^14.0.0",
+    "fs-extra": "^11.3.0",
+    "inquirer": "^12.6.3",
+    "ora": "^8.2.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
