@@ -1,10 +1,10 @@
 {
-  "name": "create-fb-react",
+  "name": "create-blaze-app",
   "version": "1.0.0",
-  "description": "Create React Firebase applications with a modern boilerplate",
+  "description": "Blazing fast React Firebase application scaffolding tool",
   "main": "bin/create-fb-react.js",
   "bin": {
-    "create-fb-react": "./bin/create-fb-react.js"
+    "create-blaze-app": "./bin/create-fb-react.js"
   },
   "scripts": {
     "test": "node test-cli.js",
@@ -12,6 +12,8 @@
     "clean-test": "rm -rf test-project"
   },
   "keywords": [
+    "create-blaze-app",
+    "blaze",
     "react",
     "firebase",
     "boilerplate",
@@ -33,7 +35,7 @@
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/dimi-r1/create-fb-react.git"
+    "url": "https://github.com/dimi-r1/create-blaze-app.git"
   },
   "type": "module",
   "dependencies": {

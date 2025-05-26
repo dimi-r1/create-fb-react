@@ -9,4 +9,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Initial release of create-fb-react CLI
+- Initial release of create-blaze-app CLI
+- Automated React + Firebase project scaffolding
+- Modern toolchain setup (React 19, TypeScript, Vite, Tailwind CSS v4)
+- Firebase Authentication with Google OAuth ready
+- Shadcn UI components integration
+- TanStack Query for state management
+- Automatic environment file setup (.env.example → .env.local)
+- Clean git initialization with initial commit

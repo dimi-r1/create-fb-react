@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Test script for the create-fb-react CLI
+ * Test script for the create-blaze-app CLI
  * This script tests various scenarios and validates the CLI functionality
  */
 
@@ -39,7 +39,7 @@ async function testVersionCommand() {
   log("Testing version command...", "info");
   try {
     const { stdout } = await execAsync(`node ${CLI_PATH} version`);
-    if (stdout.includes("Create React Firebase App")) {
+    if (stdout.includes("Create Blaze App")) {
       log("✅ Version command works", "success");
       return true;
     } else {

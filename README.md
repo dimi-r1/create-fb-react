@@ -1,11 +1,11 @@
-# Create FB React
+# Create Blaze App 🔥
 
-A CLI tool to quickly scaffold React applications with Firebase authentication and modern tooling.
+A blazing fast CLI tool to scaffold React applications with Firebase authentication and modern tooling.
 
 ## Quick Start
 
 ```bash
-npx create-fb-react my-app
+npx create-blaze-app my-app
 cd my-app
 npm run dev
 ```
@@ -28,7 +28,7 @@ This CLI creates a React application with:
 ### Basic Usage
 
 ```bash
-npx create-fb-react my-app
+npx create-blaze-app my-app
 ```
 
 ### Interactive Mode
@@ -36,7 +36,7 @@ npx create-fb-react my-app
 If you don't provide a project name, the CLI will prompt you:
 
 ```bash
-npx create-fb-react
+npx create-blaze-app
 ? What is your project name? my-awesome-app
 ```
 
@@ -105,7 +105,7 @@ src/
 
 ## Contributing
 
-Found a bug or want to contribute? Visit the [GitHub repository](https://github.com/dimi-r1/create-fb-react).
+Found a bug or want to contribute? Visit the [GitHub repository](https://github.com/dimi-r1/create-blaze-app).
 
 ## License
 
